@@ -1,0 +1,118 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: company
+            field:
+              max_items: 1
+              mode: typeahead
+              collections:
+                - private_entity
+              type: entries
+              display: Company
+              validate:
+                - required
+          -
+            handle: started_at
+            field:
+              inline: true
+              format: Y-m-d
+              type: date
+              display: 'Started At'
+              validate:
+                - required
+          -
+            handle: ended_at
+            field:
+              inline: true
+              format: Y-m-d
+              type: date
+              display: 'Ended At'
+              validate:
+                - 'after:started_at'
+                - nullable
+          -
+            handle: skills
+            field:
+              mode: typeahead
+              taxonomies:
+                - skills
+              type: terms
+              display: Skills
+          -
+            handle: description1
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - h1
+                - h4
+                - h5
+                - h6
+                - underline
+                - strikethrough
+                - small
+                - superscript
+                - subscript
+                - code
+                - codeblock
+                - horizontalrule
+                - alignleft
+                - aligncenter
+                - alignright
+                - alignjustify
+              smart_typography: true
+              reading_time: true
+              word_count: true
+              remove_empty_nodes: false
+              target_blank: true
+              type: bard
+              display: Description
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - work_experiences
+              max_items: 1
+              listable: false
+              localizable: true
+title: work_experience

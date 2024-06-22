@@ -1,0 +1,5 @@
+title: 'Private Entity'
+revisions: false
+date_behavior:
+  past: public
+  future: private

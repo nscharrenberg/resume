@@ -1,0 +1,37 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+          -
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: Email
+          -
+            handle: github
+            field:
+              type: text
+              display: github
+          -
+            handle: linkedin
+            field:
+              type: text
+              display: linkedin
+          -
+            handle: subtitle
+            field:
+              type: text
+              display: Subtitle
+          -
+            handle: location
+            field:
+              type: text
+              display: Location
