@@ -35,3 +35,17 @@ tabs:
             field:
               type: text
               display: Location
+          -
+            handle: profile
+            field:
+              max_files: 1
+              min_files: 1
+              mode: grid
+              container: profile
+              type: assets
+              display: Profile
+          -
+            handle: professions
+            field:
+              type: list
+              display: Professions
