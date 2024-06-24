@@ -4,5 +4,6 @@ blueprint: private_entity
 title: 'World of Content (Now part of Productsup)'
 website: 'https://www.productsup.com'
 updated_by: 1
-updated_at: 1719072862
+updated_at: 1719244493
+logo: logos/worldofcontent.jpeg
 ---

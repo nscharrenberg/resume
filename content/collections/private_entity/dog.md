@@ -4,5 +4,6 @@ blueprint: private_entity
 title: 'Stichting DOG'
 website: 'https://stichtingdog.org/'
 updated_by: 1
-updated_at: 1719072818
+updated_at: 1719244501
+logo: logos/dog.png
 ---

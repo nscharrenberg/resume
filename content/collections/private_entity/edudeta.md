@@ -4,5 +4,6 @@ blueprint: private_entity
 title: 'Educom & Detacom'
 website: 'https://edu-deta.com/'
 updated_by: 1
-updated_at: 1719072876
+updated_at: 1719244535
+logo: logos/educomdetacom_logo.jpeg
 ---

@@ -4,5 +4,6 @@ blueprint: private_entity
 title: Netpresenter
 website: 'https://www.netpresenter.com/'
 updated_by: 1
-updated_at: 1719072884
+updated_at: 1719244510
+logo: logos/netpresenter_logo.jpeg
 ---

@@ -55,6 +55,16 @@ tabs:
               target_blank: true
               type: bard
               display: Description
+          -
+            handle: logo
+            field:
+              max_files: 1
+              mode: grid
+              container: profile
+              folder: logos
+              restrict: true
+              type: assets
+              display: Logo
   sidebar:
     display: Sidebar
     sections:

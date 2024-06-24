@@ -50,7 +50,7 @@ tabs:
               type: terms
               display: Skills
           -
-            handle: description1
+            handle: description
             field:
               buttons:
                 - h2
@@ -87,6 +87,7 @@ tabs:
               target_blank: true
               type: bard
               display: Description
+              save_html: true
   sidebar:
     display: Sidebar
     sections:

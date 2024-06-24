@@ -4,5 +4,6 @@ blueprint: private_entity
 title: ATO-Gear
 website: 'https://www.arion.run'
 updated_by: 1
-updated_at: 1719072849
+updated_at: 1719244550
+logo: logos/atogear.png
 ---

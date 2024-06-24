@@ -4,5 +4,6 @@ blueprint: private_entity
 title: 'Bearingpoint Caribbean (Now Blyce)'
 website: 'https://blyce.com/'
 updated_by: 1
-updated_at: 1719072838
+updated_at: 1719244542
+logo: logos/bearingpoint.jpeg
 ---

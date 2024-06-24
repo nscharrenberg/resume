@@ -4,5 +4,6 @@ blueprint: private_entity
 title: 'Maastricht University'
 website: 'https://www.maastrichtuniversity.nl'
 updated_by: 1
-updated_at: 1719072826
+updated_at: 1719244519
+logo: logos/um.png
 ---
