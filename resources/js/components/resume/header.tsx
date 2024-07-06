@@ -31,8 +31,8 @@ export default function Header({ person }) {
                         image: person.profile,
                     }} />
                 </div>
-                <p>Hello, I'm {person.name}.</p>
-                <p>I'm a <FlipWords words={person.professions} /></p>
+                <div>Hello, I'm {person.name}.</div>
+                <div>I'm a <FlipWords words={person.professions} /></div>
             </motion.h1>
             <div className="content-center justify-center w-full flex gap-x-8 mt-5">
                 <a href={`https://github.com/${person.github}`} target="_blank"
